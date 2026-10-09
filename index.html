@@ -17,6 +17,8 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
+
+        .my-cat-bg {background-color: tomato;}
         
     </style>
   </head>
@@ -53,7 +55,15 @@
     <h1>Породы кошек и виды котов</h1>
 
     <p>Мир кошек...</p>
-    
+    <div class="my-cat-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand text-overflow" href="/">Cats</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
     <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
@@ -70,6 +80,23 @@
             </div>
           </div>
         </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img
+  src="cat-3.jpg" class="card-img-top" width="100%" height="225" style="object-fit: cover;">
+            <div class="card-body">
+              <p class="card-text">Кошка 4</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Btn1</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Btn2</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
     </div>
 
   </div>
